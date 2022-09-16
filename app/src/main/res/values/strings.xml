@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tic-Tack-Toe</string>
+
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="game_over">Game Over</string>
+    <string name="game_startMessage">Player 1\'s Turn</string>
+    <string name="full_space">Space is full</string>
+    <string name="auto_save_title">Auto-Save Game On Exit</string>
+    <string name="game_header">Game</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="header">Display</string>
+    <string name="auto_save_key">Auto-Save</string>
+    <string name="auto_save_on">On exit, the game in progress will be saved</string>
+    <string name="auto_save_off">On exit, the game in progress will not be saved</string>
+    <string name="settings">Settings</string>
+
+</resources>

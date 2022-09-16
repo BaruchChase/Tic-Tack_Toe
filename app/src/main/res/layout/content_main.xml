@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/content_main"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/defaultBackgroundColor">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cur_player"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/top_row"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/primaryColor">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/top_left"
+                style="@style/button_style"
+                android:tag="0:0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/top_middle"
+                style="@style/button_style"
+                android:tag="0:1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/top_right"
+                style="@style/button_style"
+                android:tag="0:2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/middle_row"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/primaryColor">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/middle_left"
+                style="@style/button_style"
+                android:tag="1:0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/middle_middle"
+                style="@style/button_style"
+                android:tag="1:1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/middle_right"
+                style="@style/button_style"
+                android:tag="1:2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/bottom_row"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/primaryColor">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bottom_left"
+                style="@style/button_style"
+                android:tag="2:0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bottom_middle"
+                style="@style/button_style"
+                android:tag="2:1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bottom_right"
+                style="@style/button_style"
+                android:tag="2:2" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.cardview.widget.CardView>
